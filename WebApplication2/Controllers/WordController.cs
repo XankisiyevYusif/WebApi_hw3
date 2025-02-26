@@ -18,7 +18,7 @@ namespace WebApplication2.Controllers
 
         public WordController(MovieDbContext context)
         {
-            string filePath = @"C:\Users\Yusif\Desktop\WebApplication2\WebApplication2\Notes.txt";
+            string filePath = @"C:\Users\Yusif\Source\Repos\WebApi_hw3\WebApplication2\Notes.txt";
             arrayService = new ArrayService(filePath);
             _httpClient = new HttpClient();
             _context = context;
